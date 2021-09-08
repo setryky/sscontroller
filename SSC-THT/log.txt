@@ -1,2 +1,0 @@
-PCB not rendered
-Error:Command '['powershell', 'render_pcb', u'C:/Users/Lucas de Souza/Desktop/SSC-THT/tmp', u'C:/Users/Lucas de Souza/Desktop/SSC-THT/SSC-THT.png']' returned non-zero exit status 1

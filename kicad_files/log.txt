@@ -1,0 +1,2 @@
+PCB not rendered
+Error:Command '['powershell', 'render_pcb', u'D:/PCB project/SSC/tmp', u'D:/PCB project/SSC/SSC.png']' returned non-zero exit status 1

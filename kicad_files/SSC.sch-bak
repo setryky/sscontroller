@@ -361,184 +361,132 @@ Text GLabel 2250 3150 2    50   Input ~ 0
 L
 Text GLabel 2250 2850 2    50   Input ~ 0
 R
-Text GLabel 6700 1850 3    50   Input ~ 0
+Text GLabel 9500 1800 3    50   Input ~ 0
 R
-Text GLabel 7300 1850 3    50   Input ~ 0
+Text GLabel 10100 1800 3    50   Input ~ 0
 L
-Text GLabel 6300 1850 3    50   Input ~ 0
+Text GLabel 9100 1800 3    50   Input ~ 0
 A
-Text GLabel 6600 1350 1    50   Input ~ 0
+Text GLabel 9400 1300 1    50   Input ~ 0
 Z
-Text GLabel 7200 1350 1    50   Input ~ 0
+Text GLabel 10000 1300 1    50   Input ~ 0
 Y
-Text GLabel 6100 1850 3    50   Input ~ 0
+Text GLabel 8900 1800 3    50   Input ~ 0
 X
-Text GLabel 6400 1350 1    50   Input ~ 0
+Text GLabel 9200 1300 1    50   Input ~ 0
 B
-Text GLabel 7000 1350 1    50   Input ~ 0
+Text GLabel 9800 1300 1    50   Input ~ 0
 C
-Text GLabel 6900 1850 3    50   Input ~ 0
+Text GLabel 9700 1800 3    50   Input ~ 0
 START
-Text GLabel 7100 1850 3    50   Input ~ 0
+Text GLabel 9900 1800 3    50   Input ~ 0
 RIGHT
-Text GLabel 6500 1850 3    50   Input ~ 0
-LEFT
-Text GLabel 6200 1350 1    50   Input ~ 0
+Text GLabel 9000 1300 1    50   Input ~ 0
 UP
-Text GLabel 6800 1350 1    50   Input ~ 0
+Text GLabel 9600 1300 1    50   Input ~ 0
 DOWN
-$Comp
-L power:GND #PWR0107
-U 1 1 61156FFA
-P 6700 1350
-F 0 "#PWR0107" H 6700 1100 50  0001 C CNN
-F 1 "GND" H 6705 1177 50  0000 C CNN
-F 2 "" H 6700 1350 50  0001 C CNN
-F 3 "" H 6700 1350 50  0001 C CNN
-	1    6700 1350
-	-1   0    0    1   
-$EndComp
 $Comp
 L Connector_Generic:Conn_02x13_Top_Bottom J2
 U 1 1 613DE006
-P 6700 1650
-F 0 "J2" V 6750 962 50  0000 R CNN
-F 1 "Conn_02x13_Top_Bottom" V 6705 962 50  0001 R CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_2x13_P2.00mm_Vertical" H 6700 1650 50  0001 C CNN
-F 3 "~" H 6700 1650 50  0001 C CNN
-	1    6700 1650
+P 9500 1600
+F 0 "J2" V 9550 912 50  0000 R CNN
+F 1 "Conn_02x13_Top_Bottom" V 9505 912 50  0001 R CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_2x13_P2.00mm_Vertical" H 9500 1600 50  0001 C CNN
+F 3 "~" H 9500 1600 50  0001 C CNN
+	1    9500 1600
 	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0108
-U 1 1 613E0F95
-P 6500 1350
-F 0 "#PWR0108" H 6500 1100 50  0001 C CNN
-F 1 "GND" H 6505 1177 50  0000 C CNN
-F 2 "" H 6500 1350 50  0001 C CNN
-F 3 "" H 6500 1350 50  0001 C CNN
-	1    6500 1350
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0109
-U 1 1 613E109B
-P 6300 1350
-F 0 "#PWR0109" H 6300 1100 50  0001 C CNN
-F 1 "GND" H 6305 1177 50  0000 C CNN
-F 2 "" H 6300 1350 50  0001 C CNN
-F 3 "" H 6300 1350 50  0001 C CNN
-	1    6300 1350
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0118
-U 1 1 613E1F43
-P 7300 1350
-F 0 "#PWR0118" H 7300 1100 50  0001 C CNN
-F 1 "GND" H 7305 1177 50  0000 C CNN
-F 2 "" H 7300 1350 50  0001 C CNN
-F 3 "" H 7300 1350 50  0001 C CNN
-	1    7300 1350
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0119
-U 1 1 613E1F49
-P 7100 1350
-F 0 "#PWR0119" H 7100 1100 50  0001 C CNN
-F 1 "GND" H 7105 1177 50  0000 C CNN
-F 2 "" H 7100 1350 50  0001 C CNN
-F 3 "" H 7100 1350 50  0001 C CNN
-	1    7100 1350
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0120
-U 1 1 613E1F4F
-P 6900 1350
-F 0 "#PWR0120" H 6900 1100 50  0001 C CNN
-F 1 "GND" H 6905 1177 50  0000 C CNN
-F 2 "" H 6900 1350 50  0001 C CNN
-F 3 "" H 6900 1350 50  0001 C CNN
-	1    6900 1350
-	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0121
 U 1 1 613E2D80
-P 6100 1350
-F 0 "#PWR0121" H 6100 1100 50  0001 C CNN
-F 1 "GND" H 6105 1177 50  0000 C CNN
-F 2 "" H 6100 1350 50  0001 C CNN
-F 3 "" H 6100 1350 50  0001 C CNN
-	1    6100 1350
+P 8900 950
+F 0 "#PWR0121" H 8900 700 50  0001 C CNN
+F 1 "GND" H 8905 777 50  0000 C CNN
+F 2 "" H 8900 950 50  0001 C CNN
+F 3 "" H 8900 950 50  0001 C CNN
+	1    8900 950 
 	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0122
-U 1 1 613E2D86
-P 7200 1850
-F 0 "#PWR0122" H 7200 1600 50  0001 C CNN
-F 1 "GND" H 7205 1677 50  0000 C CNN
-F 2 "" H 7200 1850 50  0001 C CNN
-F 3 "" H 7200 1850 50  0001 C CNN
-	1    7200 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0123
-U 1 1 613E2D8C
-P 7000 1850
-F 0 "#PWR0123" H 7000 1600 50  0001 C CNN
-F 1 "GND" H 7005 1677 50  0000 C CNN
-F 2 "" H 7000 1850 50  0001 C CNN
-F 3 "" H 7000 1850 50  0001 C CNN
-	1    7000 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0124
-U 1 1 613E3060
-P 6600 1850
-F 0 "#PWR0124" H 6600 1600 50  0001 C CNN
-F 1 "GND" H 6605 1677 50  0000 C CNN
-F 2 "" H 6600 1850 50  0001 C CNN
-F 3 "" H 6600 1850 50  0001 C CNN
-	1    6600 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0125
-U 1 1 613E3066
-P 6800 1850
-F 0 "#PWR0125" H 6800 1600 50  0001 C CNN
-F 1 "GND" H 6805 1677 50  0000 C CNN
-F 2 "" H 6800 1850 50  0001 C CNN
-F 3 "" H 6800 1850 50  0001 C CNN
-	1    6800 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0126
-U 1 1 613E306C
-P 6400 1850
-F 0 "#PWR0126" H 6400 1600 50  0001 C CNN
-F 1 "GND" H 6405 1677 50  0000 C CNN
-F 2 "" H 6400 1850 50  0001 C CNN
-F 3 "" H 6400 1850 50  0001 C CNN
-	1    6400 1850
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0127
 U 1 1 613E31FD
-P 6200 1850
-F 0 "#PWR0127" H 6200 1600 50  0001 C CNN
-F 1 "GND" H 6205 1677 50  0000 C CNN
-F 2 "" H 6200 1850 50  0001 C CNN
-F 3 "" H 6200 1850 50  0001 C CNN
-	1    6200 1850
+P 9000 2200
+F 0 "#PWR0127" H 9000 1950 50  0001 C CNN
+F 1 "GND" H 9005 2027 50  0000 C CNN
+F 2 "" H 9000 2200 50  0001 C CNN
+F 3 "" H 9000 2200 50  0001 C CNN
+	1    9000 2200
 	1    0    0    -1  
 $EndComp
+Text Notes 10550 7650 0    50   ~ 0
+3.0
+Text Notes 8100 7650 0    50   ~ 0
+07/09/2021
+Text Notes 7350 7500 0    50   ~ 0
+SSController
+Text GLabel 9300 1800 3    50   Input ~ 0
+LEFT
+Wire Wire Line
+	10100 1300 10100 1000
+Wire Wire Line
+	10100 1000 9900 1000
+Wire Wire Line
+	8900 1000 8900 950 
+Wire Wire Line
+	8900 1300 8900 1000
+Connection ~ 8900 1000
+Wire Wire Line
+	9100 1300 9100 1000
+Connection ~ 9100 1000
+Wire Wire Line
+	9100 1000 8900 1000
+Wire Wire Line
+	9300 1300 9300 1000
+Connection ~ 9300 1000
+Wire Wire Line
+	9300 1000 9100 1000
+Wire Wire Line
+	9500 1300 9500 1000
+Connection ~ 9500 1000
+Wire Wire Line
+	9500 1000 9300 1000
+Wire Wire Line
+	9700 1300 9700 1000
+Connection ~ 9700 1000
+Wire Wire Line
+	9700 1000 9500 1000
+Wire Wire Line
+	9900 1300 9900 1000
+Connection ~ 9900 1000
+Wire Wire Line
+	9900 1000 9700 1000
+Wire Wire Line
+	10000 1800 10000 2150
+Wire Wire Line
+	9000 2150 9000 1800
+Wire Wire Line
+	9200 1800 9200 2150
+Connection ~ 9200 2150
+Wire Wire Line
+	9200 2150 9000 2150
+Wire Wire Line
+	9400 1800 9400 2150
+Connection ~ 9400 2150
+Wire Wire Line
+	9400 2150 9200 2150
+Wire Wire Line
+	9600 1800 9600 2150
+Wire Wire Line
+	9400 2150 9600 2150
+Connection ~ 9600 2150
+Wire Wire Line
+	9600 2150 9800 2150
+Wire Wire Line
+	9800 1800 9800 2150
+Connection ~ 9800 2150
+Wire Wire Line
+	9800 2150 10000 2150
+Wire Wire Line
+	9000 2200 9000 2150
+Connection ~ 9000 2150
 $EndSCHEMATC
